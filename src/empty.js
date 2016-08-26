@@ -1,9 +1,4 @@
 /* @flow */
 
-const blank:Array<any> = Object.freeze([])
-
-export const empty = <value>
-  ():Array<value> =>
-  blank
-
+export const empty:Array<any> = Object.freeze([])
 export default empty

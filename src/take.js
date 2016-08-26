@@ -7,7 +7,7 @@ export const take = <value>
     const output = items.length <= n
     ? items
     : n <= 0
-    ? empty()
+    ? empty
     : items.slice(0, n)
     return output
   }

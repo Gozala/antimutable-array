@@ -11,7 +11,7 @@ export const slice = <value>
     if (start === 0 && end === length) {
       return items
     } else if (start >= end) {
-      return empty()
+      return empty
     } else {
       return items.slice(start, end)
     }

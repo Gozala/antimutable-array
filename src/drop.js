@@ -5,7 +5,7 @@ import {empty} from './empty'
 export const drop = <value>
   (n:number, items:Array<value>):Array<value> => {
     const output = items.length <= n
-    ? empty()
+    ? empty
     : n <= 0
     ? items
     : items.slice(n)

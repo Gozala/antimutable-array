@@ -15,7 +15,7 @@ const splice = <value>
       if (n < length) {
         return items.slice(n)
       } else {
-        return empty()
+        return empty
       }
     } else {
       const output = items.slice(0)

@@ -1,19 +1,19 @@
 /* @flow */
 
-import * as ImmutableArray from '../'
+import * as AntimutableArray from '../'
 import test from 'tape'
 
 test('test empty', test => {
-  test.equal(ImmutableArray.empty() === ImmutableArray.empty(), true)
-  test.deepEqual(ImmutableArray.empty(), [])
+  test.equal(AntimutableArray.empty === AntimutableArray.empty, true)
+  test.deepEqual(AntimutableArray.empty, [])
 
   try {
-    ImmutableArray.empty().push(5)
+    AntimutableArray.empty.push(5)
   } catch (error) {
 
   }
 
-  test.deepEqual(ImmutableArray.empty(), [])
+  test.deepEqual(AntimutableArray.empty, [])
 
   test.end()
 })

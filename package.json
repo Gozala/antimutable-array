@@ -1,12 +1,12 @@
 {
   "version": "0.0.1",
-  "name": "pseudo-immutable-array",
-  "id": "pseudo-immutable-array",
+  "name": "antimutable-array",
+  "id": "antimutable-array",
   "description": "Immutable alternatives to built-in array operators",
-  "keywords": [ "pseudo-immutable-array" ],
+  "keywords": [ "antimutable-array" ],
   "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
-  "homepage": "https://github.com/Gozala/pseudo-immutable-array",
-  "main": "./lib/pseudo-immutable-array.js",
+  "homepage": "https://github.com/Gozala/antimutable-array",
+  "main": "./lib/antimutable-array.js",
   "devDependencies": {
     "babel-cli": "6.11.4",
     "babel-plugin-transform-class-properties": "6.11.5",
@@ -22,7 +22,7 @@
     "test": "npm run flow && npm run lint && npm run tape",
     "tape": "tape -r babel-register test/**/*.js",
     "flow": "flow check",
-    "lint": "standard-flow src/*.js",
+    "lint": "standard-flow",
     "start": "babel --watch --out-dir lib src",
     "copy-types": "flow-copy-source src lib",
     "build-node": "babel --out-dir lib src",
@@ -31,11 +31,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Gozala/pseudo-immutable-array.git",
-    "web": "https://github.com/Gozala/pseudo-immutable-array"
+    "url": "https://github.com/Gozala/antimutable-array.git",
+    "web": "https://github.com/Gozala/antimutable-array"
   },
   "bugs": {
-    "url": "http://github.com/Gozala/pseudo-immutable-array/issues/"
+    "url": "http://github.com/Gozala/antimutable-array/issues/"
   },
   "license": "MPL-2.0"
 }

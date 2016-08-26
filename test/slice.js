@@ -1,19 +1,19 @@
 /* @flow */
 
-import * as ImmutableArray from '../'
+import * as AntimutableArray from '../'
 import test from 'tape'
 
 test('test noop', test => {
   const source = [1, 2, 3, 4, 5]
   const array = source.slice(0)
 
-  test.equal(ImmutableArray.slice(0, 5, array), array)
+  test.equal(AntimutableArray.slice(0, 5, array), array)
   test.deepEqual(array, source)
-  test.equal(ImmutableArray.slice(0, 6, array), array)
+  test.equal(AntimutableArray.slice(0, 6, array), array)
   test.deepEqual(array, source)
-  test.equal(ImmutableArray.slice(-8, 8, array), array)
+  test.equal(AntimutableArray.slice(-8, 8, array), array)
   test.deepEqual(array, source)
-  test.equal(ImmutableArray.slice(-5, 5, array), array)
+  test.equal(AntimutableArray.slice(-5, 5, array), array)
   test.deepEqual(array, source)
 
   test.end()
@@ -62,7 +62,7 @@ test('test slice', test => {
   ]
 
   cases.forEach(([from, to]) => {
-    test.deepEqual(ImmutableArray.slice(from, to, array), array.slice(from, to))
+    test.deepEqual(AntimutableArray.slice(from, to, array), array.slice(from, to))
     test.deepEqual(array, source)
   })
 

@@ -1,4 +1,4 @@
-# pseudo-immutable-array
+# antimutable-array
 [![travis][travis-image]][travis-url]
 [![npm][npm-image]][npm-url]
 [![downloads][downloads-image]][downloads-url]
@@ -13,13 +13,13 @@ Immutable alternatives to built-in array operators
 
 ## Install
 
-    npm install pseudo-immutable-array
+    npm install antimutable-array
 
-[travis-image]: https://travis-ci.org/Gozala/pseudo-immutable-array.svg?branch=master
-[travis-url]: https://travis-ci.org/Gozala/pseudo-immutable-array
-[npm-image]: https://img.shields.io/npm/v/pseudo-immutable-array.svg
-[npm-url]: https://npmjs.org/package/pseudo-immutable-array
-[downloads-image]: https://img.shields.io/npm/dm/pseudo-immutable-array.svg
-[downloads-url]: https://npmjs.org/package/pseudo-immutable-array
+[travis-image]: https://travis-ci.org/Gozala/antimutable-array.svg?branch=master
+[travis-url]: https://travis-ci.org/Gozala/antimutable-array
+[npm-image]: https://img.shields.io/npm/v/antimutable-array.svg
+[npm-url]: https://npmjs.org/package/antimutable-array
+[downloads-image]: https://img.shields.io/npm/dm/antimutable-array.svg
+[downloads-url]: https://npmjs.org/package/antimutable-array
 [standard-image]:https://img.shields.io/badge/code%20style-standard-brightgreen.svg
 [standard-url]:http://standardjs.com/
