@@ -1,0 +1,12 @@
+{
+  "sourceMaps": "inline",
+  "comments": false,
+  "sourceRoot": "src",
+  "presets": [
+    "es2015",
+    "flow"
+  ],
+  "plugins": [
+    "transform-class-properties"
+  ]
+}
