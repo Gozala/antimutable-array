@@ -335,7 +335,7 @@ AntimutableArray.empty // => []
 [array methods]:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Methods_2
 [noop]:https://en.wikipedia.org/wiki/NOP
 [flow]:http://flowtype.org
-[Array.prototype.push]:
+
 
 [`Array.prototype.push`]:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push
 [`Array.prototype.reverse`]:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse
